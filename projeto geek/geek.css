@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body * {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.cabecalho {
+  display: flex;
+}
+.logo {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 800px;
+  margin-bottom: 6px;
+}
+.products {
+  padding: 4px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #0a99fe;
+  text-align: center;
+  border-radius: 6px;
+  color: white;
+  width: 150px;
+  height: 29px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.contatos {
+  margin-left: 18px;
+  padding: 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(173, 216, 230, 0.5);
+  text-align: center;
+  border-radius: 6px;
+  color: rgb(0, 102, 255);
+  width: 150px;
+  height: 29px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+hr{
+  margin-top:7px;
+}
+.pain {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 20px;
+  height: medium;
+  color: #1b1b1b;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+#imganimewoman {
+  width: 100%;
+  height: 150px;
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+}
+#imggamepad {
+  width: 100%;
+  height: 150px;
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+}
+#imgpersonagem {
+  width: 100%;
+  height: 150px;
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+}
+
+.action {
+  margin-bottom:22px;
+  margin-top:0px;
+  margin-left: 10px;
+  width: 20px;
+  height: medium;
+  color: #1b1b1b;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  display: inline;
+}
+#imgdragonball {
+  width: 100%;
+  height: 150px;
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+}
+#img::after {
+  height: 195px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+#imgstarwars {
+  width: 100%;
+  height: 150px;
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+}
+#imgclock {
+  width: 100%;
+  height: 150px;
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+}
+.secaoframe {
+  display: flex;
+  flex-direction: row;
+  width:600px;
+  height:400px;
+}
+.secaoframe {
+  overflow-x: auto;
+}
+.secaoframeul {
+  display: flex;
+  flex-direction: row;
+  width:600px;
+  height: 300px;
+  margin-top:80px;
+  font-family: "Roboto", sans-serif;
+}
+.secaofigure {
+  display: flex;
+  flex-direction: row;
+  width:600px;
+  height:400px;
+}
+.secaofigure {
+  overflow-x: auto;
+}
+
+
+.secaofigureul {
+  display: flex;
+  flex-direction: row;
+  width:600px;
+  height:300px;
+  margin-top:67px;
+  font-family: "Roboto", sans-serif;
+  margin-left:0px;
+}
+
+
+#elemento1listaframe {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  width:207px;
+  height:275px;
+  flex-direction: column;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+#element2listaframe {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  width: 207px;
+  height: 275px;
+  flex-direction: column;
+  border-radius: 3px;
+  margin-right:15px;
+}
+#elemento3listaframe {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  width: 207px;
+  height: 275px;
+  flex-direction: column;
+  border-radius: 3px;
+  margin-right:15px;
+}
+#elemento1listaction {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  width: 207px;
+  height: 275px;
+  flex-direction: column;
+  border-radius: 3px;
+  margin-right:15px;
+}
+#elemento2listaction {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  width: 207px;
+  height: 275px;
+  flex-direction: column;
+  border-radius: 3px;
+  margin-right:15px;
+}
+#elemento3listaction {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  width: 207px;
+  height: 275px;
+  flex-direction: column;
+  border-radius: 3px;
+  margin-right:15px;
+}
+
+#tituloli1 {
+  width: 20px;
+  height: 35px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding-left: 87px;
+  padding-top: 50px;
+  text-align: center;
+}
+#titulogamepad {
+  width: 20px;
+  height: 35px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding-left:85px;
+  padding-top: 50px;
+  text-align: center;
+}
+#titulopersonagem {
+  width: 20px;
+  height: 35px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding-left: 85px;
+  padding-top: 50px;
+  text-align: center;
+}
+#titulodragon {
+  width: 20px;
+  height: 35px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding-left: 85px;
+  padding-top: 50px;
+  text-align: center;
+}
+#titulostar {
+  width: 20px;
+  height: 35px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding-left: 85px;
+  padding-top: 50px;
+  text-align: center;
+}
+#tituloclock {
+  width: 20px;
+  height: 35px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding-left:85px;
+  padding-top: 50px;
+  text-align: center;
+}
+#precoanimewoman {
+  width: 16px;
+  height: medium;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  padding-top: 30px;
+  padding-left:55px;
+  text-align: center;
+}
+#precogamepad {
+  width: 16px;
+  height: medium;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  padding-top: 30px;
+  padding-left: 55px;
+  text-align: center;
+}
+#precopersonagem {
+  width: 16px;
+  height: medium;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  padding-top: 30px;
+  padding-left:55px;
+  text-align: center;
+}
+#precodragon {
+  width: 16px;
+  height: medium;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  padding-top: 30px;
+  padding-left: 55px;
+  text-align: center;
+}
+#precostar {
+  width: 16px;
+  height: medium;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  padding-top: 30px;
+  padding-left: 55px;
+  text-align: center;
+}
+#precoclock {
+  width: 16px;
+  height: medium;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  padding-top: 30px;
+  padding-left: 55px;
+  text-align: center;
+}
