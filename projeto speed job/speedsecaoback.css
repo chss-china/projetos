@@ -1,0 +1,92 @@
+/*mesma coisa que fiz pro front end tbm fiz para o backend*/
+.secaoback{
+    max-width:1400px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .libackend {
+    flex-shrink: 0;
+    margin-left: 0;
+    align-items: center;
+      background-color: white;
+      display: flex;
+      width: 347px;
+      padding: 40px 40px;
+      gap: 4px;
+      padding-right: 40px;
+      border: 1px solid #e6e6fa;
+      flex-direction: column;
+      justify-content: left;
+      align-items: flex-start;
+      margin-top: 15px;
+      padding: 20px;
+      margin-right: 8px;
+      justify-content: space-between;
+      border-radius: 4px;
+    
+    }
+  
+  .cardsbackend {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+      list-style: none;
+      justify-content: space-around;
+      margin: 0 auto;
+      border: none;
+      display: flex;
+      background-color: #e9ecef;
+      max-width:1400px;
+      width: 100%;
+      overflow: auto;
+      justify-content: space-between;
+  }
+  @media (min-width:700px) {
+    .cardsbackend {
+      display: flex;
+      background-color: #e9ecef;
+      max-width:1400px;
+      width: 100%;
+      flex-wrap: wrap;
+      list-style: none;
+      justify-content: space-around;
+      margin: 0 auto;
+      border: none;
+      overflow: auto;
+    }
+    .libackend {
+      align-items: center;
+      background-color: white;
+      display: flex;
+      flex-wrap: wrap;
+      width: 347px;
+      padding: 40px 40px;
+      gap: 4px;
+      padding-right: 40px;
+      border: 1px solid #e6e6fa;
+      flex-direction: column;
+      justify-content: left;
+      align-items: flex-start;
+      margin-top: 15px;
+      padding: 20px;
+      margin-right: 8px;
+      justify-content: space-between;
+      border-radius: 4px;
+  
+    
+    }
+  }
+  .divpaiback {
+    display: flex;
+  }
+  .titulobackforacard {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  @media (min-width: 500px) {
+    .titulobackforacard {
+      margin-top: 80px;
+      margin-left:100px;
+    }
+  }
+  

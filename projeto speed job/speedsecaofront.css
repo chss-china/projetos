@@ -1,0 +1,135 @@
+.containercards{
+    display: flex;
+  }
+  .secaofront{
+    max-width:1400px;
+    width: 100%;
+  }
+  
+  .lifrontend {
+    flex-shrink: 0;
+    margin-left: 0;
+    align-items: center;
+      background-color: white;
+      display: flex;
+      width: 347px;
+      padding: 40px 40px;
+      gap: 4px;
+      padding-right: 40px;
+      border: 1px solid #e6e6fa;
+      flex-direction: column;/*meus elementos dentro do meu card, titulo, descrição e etc vai ficar um
+      embaixo do outro, por isso column*/
+      align-items: flex-start;
+      margin-top: 15px;
+      padding: 20px;
+      margin-right: 8px;
+      justify-content: space-between;/*dei um space-beetwen para colocar meus elemento de cima em cima, os
+      o do meio no meio, e os de la debaixo embaixo, se separarmos com margin vai ficar desalinhado pois
+      minha descrição é uma maior do que a outra*/
+      border-radius: 4px;
+  
+  }
+  .cardsfrontend {/*dei um display flex para quando estiver em mobile ficar um do lado do outro, coloquei
+    um overflow auto para criar uma barra de rolagem e poder ver todos os itens sem mover pagina para o lado*/
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+      list-style: none;
+      justify-content: space-around;
+      margin: 0 auto;
+      border: none;
+      display: flex;
+      background-color: #e9ecef;
+      
+      width: 100%;
+      overflow: auto;
+      justify-content: space-between;/*dei um space-beetwen para colocar meus elemento de cima em cima, os
+      o do meio no meio, e os de la debaixo embaixo, se separarmos com margin vai ficar desalinhado pois
+      minha descrição é uma maior do que a outra*/
+  }
+  
+  @media (min-width:700px) {/*quando minha tela estiver maior que 700px fara as alterações abaixo*/
+    .cardsfrontend {
+      display: flex;
+      background-color: #e9ecef;
+      max-width:1400px;/*quando minha tela estiver acima de 700px vai ter uma largura acima envolvendo todos
+      cards de 1400px e caso meus cards passe dessa largura vai dar um flex wrap que é colocar embaixo*/
+      width: 100%;
+      flex-wrap: wrap;
+      list-style: none;
+      justify-content: space-around;
+      margin: 0 auto;
+      border: none;
+    }
+    
+    .lifrontend {
+      align-items: center;
+      background-color: white;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 347px;/*quando minha tela for maior que 700px meu card vai receber uma largura de 347px 
+      cabendo 3 cards em cima e 3 embaixo, se aumentar minha largura vai ser 2 cards em cima,2 no meio 2
+      embaixo pois está com flex wrap que quando não cabe em cima vai para linha debaixo*/
+      padding: 40px 40px;
+      gap: 4px;
+      padding-right: 40px;
+      border: 1px solid #e6e6fa;
+      flex-direction: column;
+      /*meus elementos dentro do meu card, titulo, descrição e etc vai ficar um
+      embaixo do outro, por isso column*/
+      justify-content: left;
+      align-items: flex-start;
+      margin-top: 15px;
+      padding: 20px;
+      margin-right: 8px;
+      justify-content: space-between;/*dei um space-beetwen para colocar meus elemento de cima em cima, os
+      o do meio no meio, e os de la debaixo embaixo, se separarmos com margin vai ficar desalinhado pois
+      minha descrição é uma maior do que a outra*/
+      border-radius: 4px;
+      
+    }
+    
+  }
+  .divpai {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .spang {
+    border: 1px solid black;
+    padding: 0px 10px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    height: 30px;
+  }
+  .titulofront {
+    color: black;
+    margin-top: -2px;
+    margin-left: 7px;
+  }
+  .modalidade0 {
+    color: #4d52d3;
+    background-color: rgba(77, 82, 211, 0.1);
+    padding: 5px;
+    margin-right: 4px;
+    border-radius: 4px;
+  }
+  .modalidade1 {
+    color: #4d52d3;
+    background-color: rgba(77, 82, 211, 0.1);
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .titulofrontforacard {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  @media (min-width: 500px) {
+    .titulofrontforacard {
+      margin-top: 80px;
+      margin-left: 100px;
+    }
+  }

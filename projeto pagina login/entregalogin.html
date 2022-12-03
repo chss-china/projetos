@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="entregalogin.css" />
+    <script src="entregalogin.js"defer></script>
+
+    <title>Login</title>
+  </head>
+  <body>
+    <main class="containeint">
+      <div class="descricaoformcont">
+        <img
+          class="logokenzie"
+          src="https://www.lomadee.com/programas/BR/8450/logo_185x140.png"
+          alt="logo kenzie"
+        />
+        <p class="descricaoform">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
+        </p>
+      </div>
+      <div class="containerlogin">
+        <div class="containerlogin2">
+          <h1 class="titulologin">Login</h1>
+          <label class="descricaoinput" for="email">Email:</label><br />
+          <input
+            class="inputemailsenha"
+            type="email"
+            name="email"
+            id="email"
+            required="true"
+          /><br />
+          <label class="descricaoinput" for="senhalogin">Senha:</label><br />
+          <input
+            class="inputemailsenha"
+            type="password"
+            id="senhalogin"
+            name="senha"
+            required="true"
+          /><br />
+
+          <button
+            class="botaoesqueceu"
+            data-modal-control="senha"
+            type="submit"
+          >
+            Esqueceu a senha ?</button
+          ><br /><!--dei um data-modal-control com o nome de senha para meu botão, que seria parecido com um
+        id o data-modal-control, para pegarmos ele no javascript e esse esqueceu senha vai abrir o modal-->
+          <button class="botaologar" type="submit">Logar</button>
+          <div class="modalint"id="senha"><!--meu modal inteiro vai receber um id de senha igual meu data-modal
+        control que apos eu clicar no botão esqueceu senha que está com data-modal-control vai pegar tudo que
+        está nessa div com id de senha-->
+          <div class="modal-wraper" >
+            <div class="modal">
+              <span class="recuperasenha">Recuperação de Senha</span>
+              <span class="modalclose"data-modal-control="senha">X</span><br /><!--dei um data-modal-control com
+                 o nome de senha para meu span, que seria parecido com um
+                id o data-modal-control, para pegarmos ele no javascript, e esse span senha vai fechar o meu modal-->
+              <p class="descricaorecuperasenha">
+                Para recuperar sua senha basta digita-lo seu email no campo
+                abaixo
+              </p>
+
+              <label class="labelemail" for="email">Digite seu Email:</label
+              ><br />
+              <input
+                class="emailmodal"
+                type="email"
+                name="email"
+                id="email"
+                required="true"
+              /><br />
+              <button class="botaosenha"type="submit">Enviar</button>
+            
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

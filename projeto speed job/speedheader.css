@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/*importei uma font para todo no meu texto*/
+header {
+  background-color: #212529;
+  width: 100%;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.containerheader {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  justify-content: center;
+  max-width: 100%;
+}
+
+@media (min-width: 500px) {
+  .header {
+    width: 100vw; 
+    max-width: 100vw;
+  }
+  .containerheader {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    display: flex;
+  }
+}
+.tituloheader {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  
+}
+@media (max-width: 500px) {
+  .tituloheader {
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+.pheader {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.botaoheader {
+  padding: 6px 64px;
+  border-radius: 18px;
+  background-color: #212529;
+  border: 1px solid white;
+  color: white;
+
+
+}
+#botao1header {
+  margin-bottom: 14px;
+  padding: 6px 64px;
+  border-radius: 18px;
+  background-color: #212529;
+  border: 1px solid white;
+  color: white;
+ 
+
+
+}
+.botaoheader {
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+ 
+
+}
+
+@media (min-width: 500px) {
+    /*quando estiver acima de 500 px meu container do meu botão vai ganhar um display flex para que os meus
+    botões fique um do lado do outro*/
+  .containerbotoes {
+    display: flex;
+  }
+  .botaoheader {
+    display: flex;
+    flex-direction: row;/*quando passar de 500px meus botões vai ficar um do lado do outro com flex direction
+    row*/
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    padding: 6px 20px;
+    border-radius: 18px;
+    background-color: #212529;
+    border: 1px solid white;
+    color: white;
+  }
+  #botao1header {
+    display: flex;
+    flex-direction: row;/*quando passar de 500px meus botões vai ficar um do lado do outro com flex direction
+    row*/
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    padding: 6px 20px;
+    border-radius: 18px;
+    background-color: #212529;
+    border: 1px solid white;
+    color: white;
+  }
+  button {
+    display: flex;
+    flex-direction: row;/*quando passar de 500px meus botões vai ficar um do lado do outro com flex direction
+    row*/
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    padding: 6px 20px;
+    border-radius: 18px;
+    background-color: #212529;
+    border: 1px solid white;
+    color: white;
+  }
+}
+.segundacortitulo {
+  color: #484ffb;
+}
